@@ -1,0 +1,29 @@
+{
+  "name": "cy-ketter",
+  "version": "1.0.0",
+  "description": "Testing library using cypress.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "record": " cypress run --record --key f4bcc4e0-53f7-4635-a034-f656db06083f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfredMothapo/cy-ketter.git"
+  },
+  "keywords": [
+    "Testing",
+    "Js",
+    "angular"
+  ],
+  "author": "Alfred Mothapo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfredMothapo/cy-ketter/issues"
+  },
+  "homepage": "https://github.com/AlfredMothapo/cy-ketter#readme",
+  "devDependencies": {
+    "cypress": "^3.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}
