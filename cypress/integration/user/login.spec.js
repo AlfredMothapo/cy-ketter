@@ -6,7 +6,7 @@ describe("Login test",()=>{
     })
 
     it("checks if the login form is loaded",()=>{
-
+        
     })
     it("populate inputs in the login form",()=>{
 
@@ -19,5 +19,11 @@ describe("Login test",()=>{
     })
     it("Check if the user is redirected after successfull login",()=>{
 
+    })
+
+    after(()=>{
+        cy.window().then((win) => {
+            cy.spy(win.console, "log")
+          })
     })
 })

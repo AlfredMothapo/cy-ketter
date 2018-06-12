@@ -4,7 +4,7 @@
   "description": "Testing library using cypress.js",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open &&  cypress run --record --key f4bcc4e0-53f7-4635-a034-f656db06083f",
+    "test": "cypress run --record --key f4bcc4e0-53f7-4635-a034-f656db06083f",
     "record": " cypress run --record --key f4bcc4e0-53f7-4635-a034-f656db06083f"
   },
   "repository": {
